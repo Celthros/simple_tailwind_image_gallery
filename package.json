@@ -1,0 +1,20 @@
+{
+  "name": "mini_project_img_gallery",
+  "version": "1.0.0",
+  "description": "Image Gallery mini-project from my Tailwind course. This project is a simple image gallery that uses Tailwind CSS to style the images and make them responsive.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/style.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "keywords": [
+    "tailwindcss",
+    "CSS",
+    "new environment"
+  ],
+  "author": "Tyler Anderson",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
